@@ -7,5 +7,5 @@ incidentGR.query();
 
 //lop to print numbers
 while (incidentGR.next()){
-  gs.print(incidentGR.number);
+  gs.print('Priority 1 incident: ' + incidentGR.number);
 }
